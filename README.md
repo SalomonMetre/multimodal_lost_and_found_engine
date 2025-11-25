@@ -88,7 +88,7 @@ curl -X POST "http://127.0.0.1:8000/search/?top_k=5" \
   -F "query_image=@./found_wallet.jpg"
 ```
 
-## 🧠 Cosine Similarity Interpretation
+## 🧠 Arbitrary Similarity Interpretation
 
 | Score   | Meaning                       |
 |---------|-------------------------------|
