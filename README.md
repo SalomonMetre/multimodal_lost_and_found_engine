@@ -98,21 +98,6 @@ curl -X POST "http://127.0.0.1:8000/search/?top_k=5" \
 | 0.50–0.70 | Reasonable / partial match  |
 | < 0.50  | Weak or unrelated             |
 
-## 📂 Project Structure
-
-```
-lost_and_found_engine/
-├── .gitignore
-├── .python-version
-├── pyproject.toml          # uv metadata
-├── uv.lock                 # exact dependency lockfile
-├── main.py                 # FastAPI app
-├── clip_utils.py
-├── faiss_index.py
-├── hybrid_fusion.py
-├── lost_found_unified.faiss   # auto-created/saved
-└── README.md
-```
 
 ## 📝 License
 
